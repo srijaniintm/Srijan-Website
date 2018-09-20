@@ -491,3 +491,142 @@ ul.social-list li:nth-child(4) a:hover {
 .work p {
   line-height: normal;
 }
+
+#works-02 {
+  background: #f4f4f4;
+}
+
+#works-tabs ul {
+  margin-bottom: 40px;
+}
+
+#works-tabs ul li {
+  padding: 5px 30px;
+}
+
+#works-tabs ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #212226;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+}
+
+#works-tabs ul li.r-tabs-state-active a {
+  color: #3399FF;
+  font-weight: 700;
+  border-bottom: 3px solid #3399ff;
+  padding-bottom: 5px;
+  -webkit-transition: border-color 300ms linear;
+  transition: border-color 300ms linear;
+}
+
+.work-tab .col-md-6 {
+  padding 0;
+}
+
+.work-tab img {
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.work-tab .tab-bg {
+  background: #fff;
+  padding: 59px 30px;
+  min-height: 500px;
+}
+
+.work-tab h2 {
+  font-size: 48px;
+  color: #bbb;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.work-tab h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.work-tab p {
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.btn-blue {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #3399FF;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  color: #fff;
+  background-color: #212226;
+  border: 1px solid #212226;
+}
+
+#contact-left p {
+  margin: 25px 0 20px 0;
+}
+
+ul.office-details {
+  list-style: none;
+  padding: 0;
+}
+
+ul.office-details li {
+  font-family: "Open-Sans", sans-serif;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul.office-details li i {
+  font-size: 20px;
+  width: 45px;
+}
+
+#contact-left ul.social-list li a {
+  color: #212226;
+  border: 1px solid #212226;
+  text-align: center;
+}
+
+#contact-left ul.social-list li a:hover {
+  color: #fff;
+  border-color: transparent;
+  background-color: #212226;
+}
+
+#contact-right {
+  padding: 25px 30px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+#conact-right h4 {
+  font-size: 24px;
+}
+
+#contact-right p {
+  margin-bottom: 25px;
+}
+
+#contact-right form .form-control {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#contact-right form textarea.form-control {
+  min-height: 164px;
+}

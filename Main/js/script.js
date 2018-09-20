@@ -59,3 +59,11 @@ $(function () {
     autoplayHoverPause: true,
   });
 });
+
+$(function () {
+
+  $('#works-tabs').responsiveTabs({
+      animation: 'slide'
+  });
+
+});

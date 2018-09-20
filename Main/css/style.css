@@ -630,3 +630,19 @@ ul.office-details li i {
 #contact-right form textarea.form-control {
   min-height: 164px;
 }
+
+footer {
+  background: #212226;
+  padding: 30px;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+}
+
+footer p span {
+  font-size: 20px;
+  color: #3399FF;
+  font-family: SAMARN;
+}

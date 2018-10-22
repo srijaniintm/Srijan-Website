@@ -37,6 +37,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 1111;
 }
 
 .navbar {
@@ -172,6 +173,11 @@ ul.navbar-nav > li > a:focus {
 #home-heading-1 {
   font-family: SAMARN;
   font-size: 72px;
+}
+
+#home-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn-general {
@@ -646,3 +652,44 @@ footer p span {
   color: #3399FF;
   font-family: SAMARN;
 }
+
+#thover{
+  position:fixed;
+  width:100%;
+  height:100%;
+  opacity: .6
+}
+
+#tpopup{
+  position: relative;
+  width: 40%;
+  top: 4%;
+  background:#fff;
+  border-radius:5px;
+  margin: auto;
+  text-align:center;
+  box-shadow:0 0 10px 0 #000;
+  z-index: 1111111;
+}
+#tclose{
+  position:absolute;
+  background:black;
+  color:white;
+  right:-15px;
+  top:-15px;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  font-size:8px;
+  font-weight:bold;
+  font-family:'Arial Black', Arial, sans-serif;
+  cursor:pointer;
+  box-shadow:0 0 10px 0 #000;
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
